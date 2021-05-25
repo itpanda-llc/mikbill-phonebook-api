@@ -8,19 +8,14 @@
 namespace Panda\MikBill\PhoneBookApi;
 
 /**
- * Class Key
+ * Class Vendor
  * @package Panda\MikBill\PhoneBookApi
- * Наименование полей в ответе
+ * Вендор
  */
-class Field
+class Vendor
 {
     /**
-     * Имя
+     * Наименование
      */
-    public const NAME = 'name';
-
-    /**
-     * Телефон
-     */
-    public const PHONE = 'phone';
+    public const NAME = 'Yealink';
 }

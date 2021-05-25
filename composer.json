@@ -1,7 +1,7 @@
 {
-    "name": "itpanda-llc/mikbill-yealink-phonebook-api",
-    "description": "API for integration of the MikBill billing system with the Yealink IP phones",
-    "homepage": "https://github.com/itpanda-llc/mikbill-yealink-phonebook-api",
+    "name": "itpanda-llc/mikbill-phonebook-api",
+    "description": "API for integration of the MikBill billing system with IP phones",
+    "homepage": "https://github.com/itpanda-llc/mikbill-phonebook-api",
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Panda\\MikBill\\Yealink\\PhonebookApi\\": "src/"
+            "Panda\\MikBill\\PhoneBookApi\\": "src/"
         }
     },
     "require": {

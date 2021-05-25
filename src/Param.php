@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Файл из репозитория MikBill-Yealink-Phonebook-API
- * @link https://github.com/itpanda-llc/mikbill-yealink-phonebook-api
+ * Файл из репозитория MikBill-PhoneBook-API
+ * @link https://github.com/itpanda-llc/mikbill-phonebook-api
  */
 
-namespace Panda\MikBill\Yealink\PhonebookApi;
+namespace Panda\MikBill\PhoneBookApi;
 
 /**
  * Class Param
- * @package Panda\MikBill\Yealink\PhonebookApi
+ * @package Panda\MikBill\PhoneBookApi
  * Наименования параметров запроса
  */
 class Param

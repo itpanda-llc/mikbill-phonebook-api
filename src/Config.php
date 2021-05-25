@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Файл из репозитория MikBill-Yealink-Phonebook-API
- * @link https://github.com/itpanda-llc/mikbill-yealink-phonebook-api
+ * Файл из репозитория MikBill-PhoneBook-API
+ * @link https://github.com/itpanda-llc/mikbill-phonebook-api
  */
 
 declare(strict_types=1);
 
-namespace Panda\MikBill\Yealink\PhonebookApi;
+namespace Panda\MikBill\PhoneBookApi;
 
 /**
  * Class Config
- * @package Panda\MikBill\Yealink\PhonebookApi
+ * @package Panda\MikBill\PhoneBookApi
  * Получение конфигурации
  */
 class Config

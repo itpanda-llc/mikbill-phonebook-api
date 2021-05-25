@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Файл из репозитория MikBill-Yealink-Phonebook-API
- * @link https://github.com/itpanda-llc/mikbill-yealink-phonebook-api
+ * Файл из репозитория MikBill-PhoneBook-API
+ * @link https://github.com/itpanda-llc/mikbill-phonebook-api
  */
 
 declare(strict_types=1);
 
-namespace Panda\MikBill\Yealink\PhonebookApi;
+namespace Panda\MikBill\PhoneBookApi;
 
 /**
  * Class Response
- * @package Panda\MikBill\Yealink\PhonebookApi
+ * @package Panda\MikBill\PhoneBookApi
  * Формирование ответа
  */
 class Response
@@ -56,7 +56,7 @@ class Response
             return new \SimpleXMLElement(
                 sprintf("<?xml version=\"1.0\" encoding=\"%s\"?><%s/>",
                     Charset::UTF_8,
-                    Tag::YEALINK_IP_PHONE_DIRECTORY));
+                    Tag::VENDOR_IP_PHONE_DIRECTORY));
         } catch (\Exception $e) {
             throw new Exception\DebugException($e->getMessage());
         }

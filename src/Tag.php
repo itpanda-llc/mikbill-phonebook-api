@@ -1,15 +1,15 @@
 <?php
 
 /**
- * Файл из репозитория MikBill-Yealink-Phonebook-API
- * @link https://github.com/itpanda-llc/mikbill-yealink-phonebook-api
+ * Файл из репозитория MikBill-PhoneBook-API
+ * @link https://github.com/itpanda-llc/mikbill-phonebook-api
  */
 
-namespace Panda\MikBill\Yealink\PhonebookApi;
+namespace Panda\MikBill\PhoneBookApi;
 
 /**
  * Class Tag
- * @package Panda\MikBill\Yealink\PhonebookApi
+ * @package Panda\MikBill\PhoneBookApi
  * Наименования полей в ответе
  */
 class Tag
@@ -22,7 +22,7 @@ class Tag
     /**
      * Главный
      */
-    public const YEALINK_IP_PHONE_DIRECTORY = 'YealinkIPPhoneDirectory';
+    public const VENDOR_IP_PHONE_DIRECTORY = Vendor::NAME . 'IPPhoneDirectory';
 
     /**
      * Контакт
